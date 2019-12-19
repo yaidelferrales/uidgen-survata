@@ -4,14 +4,11 @@ uidgen generates unique ids based on a combination of several random numbers, th
 
 ## Requirements
 
-Nodejs 10 or newer.
+Maven and Java 1.8 or newer.
 
 ## Run
 
-Navigate to the source code path and run:
-* npm install.
-* npm start OR npm run start-dev (for production or developement).
-
+Open the source code using your preference IDE and run the application as an Spring Project.
 Then you can go to your browser and use http://localhost:3000/newId/[namespace] to generate unique ids.
 
 ## Solution
