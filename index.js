@@ -33,4 +33,4 @@ app.get('/newId/:namespace', (req, res) => {
     res.send(`${namespace}-${uniqueId}`);
 })
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`App listening on port ${port}!`));
